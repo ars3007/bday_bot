@@ -1,0 +1,419 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+.header {
+	width: 100%;
+	text-align: center; 
+	align-items: center;
+	position: relative; 
+}
+.logo {
+	height: 141px; 
+	width: 143px; 
+	position: relative; 
+	top: 37px; 
+	text-align: center; 
+	align-items: center;
+	left: 50%;
+	margin-left: -71.5px;
+}
+.logo img {
+	width: 100%;
+	height: 100%;
+}
+h1 {
+	position: relative;
+	width: 670px;
+	height: 38px;
+	top: 17px;
+	left: 50%;
+	margin-left: -335px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+
+	text-align: center;
+
+	color: #4D4D4D;
+}
+
+h2 {
+	position: relative;
+	width: 319px;
+	height: 28px;
+	top: 13px;
+	left: 50%;
+	margin-left: -159.5px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+
+	color: #A1A1A1;
+}
+.button {
+	position: relative;
+	width: 402px;
+	height: 75px;
+	left: 50%;
+	margin-left: -201px;
+	top: 50px;
+
+	background: #23A0DD;
+	border-radius: 5px;
+}
+.button:hover {
+	cursor: pointer;
+}
+.start {
+	position: relative;
+	width: 137px;
+	height: 75px;
+	left: 50%;
+	top: 15px;
+	margin-left: -63.5px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.line {
+	height: 0px;
+	position: relative;
+	width: 886px;
+	left: 50%;
+	margin-left: -443px;
+	border: 1px solid #E8E8E8;
+}
+.l_1 {
+	top: 112px;
+}
+.w_container {
+	position: relative;
+	top: 138px;
+	width: 886px;
+	left: 50%;
+	margin-left: -443px;
+}
+.bonus {
+	position: relative;
+	width: 280px;
+	height: 42px;
+	left: 50%;
+	margin-left: -140px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+
+	color: #4D4D4D;
+}
+.card_cont {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	top: 68px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: center;
+
+	color: #0F86D7;
+}
+.card {
+	width: 50%;
+}
+.card_5 {
+	width: 100%;
+}
+.card img, .card_5 img {
+	position: relative;
+	width: 330px;
+	top: 26px;
+}
+.card img {
+	margin-bottom: 78px;
+}
+.c1 {
+	position: relative;
+	width: 211px;
+	left: 50%;
+	margin-left: -105.5px;
+}
+.c2 {
+	position: relative;
+	width: 346px;
+	left: 50%;
+	margin-left: -173px;
+}
+.c3 {
+	position: relative;
+	width: 285px;
+	left: 50%;
+	margin-left: -142.5px;
+}
+.c4 {
+	position: relative;
+	width: 381px;
+	left: 50%;
+	margin-left: -190.5px;
+}
+.c5 {
+	position: relative;
+	width: 670px;
+	left: 50%;
+	margin-left: -335px;
+}
+.l_2 {
+	top: 150px;
+}
+.f_container, .footer {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	color: #4D4D4D;
+	width: 886px;
+	left: 50%;
+	margin-left: -443px;
+}
+.f_container {
+	top: 300px;
+}
+.footer { 
+	top: 370px;
+ }
+.fox_block_1, .fox_block_2, .fox_block_3, .wolf_block {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+.fox_block_1 div {
+	position: relative;
+	display: inline-block;
+	width: 58%;
+}
+.fox_block_1 img {
+	position: relative;
+	width: 330px;
+}
+.fox_block_2 div {
+	position: relative;
+	display: inline-block;
+	width: 58%;
+	text-align: right;
+}
+.fox_block_2 img {
+	position: relative;
+	width: 330px;
+}
+.l_3 {
+	top: 30px;
+}
+.fox_block_3 div {
+	position: relative;
+	display: inline-block;
+	width: 58%;
+	margin-top: -150px;
+}
+.fox_block_3 img {
+	position: relative;
+	width: 330px;
+}
+.wolf_block div {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	margin-top: -130px;
+	margin-bottom: 50px;
+}
+.wolf_block img {
+	position: relative;
+	width: 330px;
+	margin-top: -130px;
+}
+a, #copy {
+	color: #0F86D7;
+	text-decoration: none;
+}
+#copy {
+	cursor: pointer;
+}
+.fox_block_2_mob {
+	display: none;
+	visibility: hidden;
+}
+.wolf_block_mob {
+	display: none;
+	visibility: hidden;
+}
+.fox_block_2 {
+	display: inline-block;
+	visibility: visible;
+}
+.wolf_block {
+	display: inline-block;
+	visibility: visible;
+}
+@media screen and (max-width: 1023px){
+	h1 {
+		width: 320px;
+		height: 114px;
+		left: 50%;
+		margin-left: -160px;
+	}
+
+	h2 {
+		width: 320px;
+		left: 50%;
+		margin-left: -160px;
+	}
+	.button {
+		width: 280px;
+		height: 57px;
+		left: 50%;
+		margin-left: -140px;
+		top: 50px;
+	}
+	.start {
+		width: 160px;
+		height: 45px;
+		left: 50%;
+		top: 11px;
+		margin-left: -80px;
+		font-size: 32px;
+		line-height: 38px;
+	}
+	.line {
+		width: 320px;
+		margin-left: -160px;
+	}
+	.w_container {
+		width: 320px;
+		margin-left: -160px;
+	}
+	.card {
+		width: 100%;
+	}
+	.card img, .card_5 img {
+		width: 320px;
+	}
+	.c1, .c2, .c3, .c4, .c5 {
+		width: 300px;
+		margin-left: -150px;
+	}
+	.f_container {
+		width: 320px;
+		left: 50%;
+		margin-left: -160px;
+	}
+	.fox_block_2 {
+		display: none;
+		visibility: hidden;
+	}
+	.fox_block_1, .fox_block_2_mob, .fox_block_3, .wolf_block {
+		width: 100%;
+		display: block;
+
+	}
+	.fox_block_1 div {
+		position: relative;
+		display: block;
+		width: 100%;
+		text-align: center;
+		top: 20px;
+	}
+	.fox_block_1 img {
+		position: relative;
+		width: 320px;
+		top: 40px;
+	}
+	.fox_block_2_mob {
+		display: block;
+		visibility: visible;
+	}
+	.fox_block_2_mob div:first-child {
+		position: relative;
+		display: block;
+		width: 100%;
+		text-align: center;
+		top: 60px;
+	}
+	.fox_block_2_mob img {
+		position: relative;
+		width: 320px;
+		top: 80px;
+	}
+	.ya-share2 {
+		position: relative;
+		top: 20px;
+	}
+	.l_3 {
+		top: 120px;
+	}
+	.footer { 
+		position: relative;
+		width: 320px;
+		left: 50%;
+		margin-left: -160px;
+	 }
+	 .fox_block_3 div {
+		position: relative;
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin-top: 90px;
+	}
+	.fox_block_3 img {
+		position: relative;
+		width: 320px;
+		margin-top: 30px;
+	}
+	.wolf_block {
+		display: none;
+		visibility: hidden;
+	}
+	.wolf_block_mob {
+		display: block;
+		visibility: visible;
+	}
+	.wolf_block_mob div {
+		position: relative;
+		display: block;
+		width: 100%;
+		margin-left: 0px;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.wolf_block_mob img {
+		position: relative;
+		width: 320px;
+		margin-bottom: 50px;
+	}
+}
