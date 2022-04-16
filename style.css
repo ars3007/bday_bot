@@ -2,6 +2,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 .dimension {
 	position: relative;
@@ -34,7 +35,7 @@ h1 {
 	top: 17px;
 	left: 50%;
 	margin-left: -335px;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 32px;
@@ -53,7 +54,7 @@ h2 {
 	left: 50%;
 	margin-left: -159.5px;
 
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
@@ -83,7 +84,7 @@ h2 {
 	left: 50%;
 	top: 15px;
 	margin-left: -63.5px;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
@@ -118,7 +119,7 @@ h2 {
 	left: 50%;
 	margin-left: -140px;
 
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 36px;
@@ -132,7 +133,7 @@ h2 {
 	display: flex;
 	flex-wrap: wrap;
 	top: 68px;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -192,7 +193,7 @@ h2 {
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 32px;
