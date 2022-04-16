@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 html, body {
 	padding: 0;
 	margin: 0;
+	height: 100%;
+}
+.dimension {
+	position: relative;
+	transform: scale(80%);
+	top: -230px;
 }
 .header {
 	width: 100%;
@@ -37,7 +45,7 @@ h1 {
 
 	text-align: center;
 
-	color: #4D4D4D;
+	color: #0F86D7;
 }
 
 h2 {
@@ -70,11 +78,11 @@ h2 {
 }
 .button:hover {
 	cursor: pointer;
+	background: #66B6DD;
 }
 .start {
 	position: relative;
 	width: 137px;
-	height: 75px;
 	left: 50%;
 	top: 15px;
 	margin-left: -63.5px;
@@ -82,7 +90,6 @@ h2 {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
-	line-height: 47px;
 	/* identical to box height */
 
 	text-align: center;
@@ -281,6 +288,9 @@ a, #copy {
 	visibility: visible;
 }
 @media screen and (max-width: 1023px){
+.dimension {
+	transform: scale(100%);
+}
 	h1 {
 		width: 320px;
 		height: 114px;
