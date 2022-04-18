@@ -6,7 +6,7 @@ html, body {
 }
 .dimension {
 	position: relative;
-	transform: scale(80%);
+	transform: scale(0.8);
 }
 .header {
 	width: 100%;
@@ -30,11 +30,11 @@ html, body {
 }
 h1 {
 	position: relative;
-	width: 670px;
+	width: 800px;
 	height: 38px;
 	top: 17px;
 	left: 50%;
-	margin-left: -335px;
+	margin-left: -400px;
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -48,11 +48,11 @@ h1 {
 
 h2 {
 	position: relative;
-	width: 319px;
+	width: 800px;
 	height: 28px;
 	top: 13px;
 	left: 50%;
-	margin-left: -159.5px;
+	margin-left: -400px;
 
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
@@ -220,7 +220,7 @@ h2 {
 .fox_block_1 div {
 	position: relative;
 	display: inline-block;
-	width: 58%;
+	width: 556px;
 }
 .fox_block_1 img {
 	position: relative;
@@ -229,7 +229,7 @@ h2 {
 .fox_block_2 div {
 	position: relative;
 	display: inline-block;
-	width: 58%;
+	width: 556px;
 	text-align: right;
 }
 .fox_block_2 img {
@@ -242,7 +242,7 @@ h2 {
 .fox_block_3 div {
 	position: relative;
 	display: inline-block;
-	width: 58%;
+	width: 556px;
 	margin-top: -150px;
 }
 .fox_block_3 img {
@@ -262,12 +262,13 @@ h2 {
 	width: 330px;
 	margin-top: -130px;
 }
-a, #copy {
+a, #copy, #copy2 {
 	color: #0F86D7;
 	text-decoration: none;
 }
-#copy {
+#copy, #copy2 {
 	cursor: pointer;
+	z-index: 100;
 }
 .fox_block_2_mob {
 	display: none;
@@ -278,7 +279,7 @@ a, #copy {
 	visibility: hidden;
 }
 .fox_block_2 {
-	display: inline-block;
+	display: flex;
 	visibility: visible;
 }
 .wolf_block {

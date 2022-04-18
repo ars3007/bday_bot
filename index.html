@@ -57,7 +57,7 @@
 				<div>Хочешь поддержать бота и чтобы <br>
 					быстрее добавились новые <br>
 					функции?<br>
-					Отправь <span id="copy"><b>ссылку</b></span> на этот сайт или <br>
+					Отправь <span id="copy" title="скопировать"><b>ссылку</b></span> на этот сайт или <br>
 					на бота, своим друзьям!
 					<script src="https://yastatic.net/share2/share.js"></script>
 					<div class="ya-share2" data-curtain data-size="l" data-shape="round" data-services="vkontakte,telegram,whatsapp"></div>
@@ -65,7 +65,7 @@
 			</div>
 			<div class="fox_block_2_mob">
 				<div>Хочешь поддержать бота и чтобы быстрее добавились новые функции? <br>
-					Отправь <span id="copy"><b>ссылку</b></span> на этот сайт или на бота, своим друзьям!
+					Отправь <span id="copy2" title="скопировать"><b>ссылку</b></span> на этот сайт или на бота, своим друзьям!
 					<script src="https://yastatic.net/share2/share.js"></script>
 				</div>
 				<div class="ya-share2" data-curtain data-size="l" data-shape="round" data-services="vkontakte,telegram,whatsapp"></div>
@@ -104,8 +104,14 @@
 	</div>
 <script type="text/javascript">
 	const copyLink = document.getElementById("copy");
+	const copyLink2 = document.getElementById("copy2");
 	copyLink.addEventListener("click", (event) => {
-		navigator.clipboard.writeText("link");
+		navigator.clipboard.writeText("happybirthdaybot.ru");
+		copyLink.title = "скопировано!";
+	});
+	copyLink2.addEventListener("click", (event) => {
+		navigator.clipboard.writeText("happybirthdaybot.ru");
+		copyLink2.title = "скопировано!";
 	});
 </script>
 </body>
