@@ -16,14 +16,14 @@ html, body {
 	position: relative; 
 }
 .logo {
-	height: 141px; 
-	width: 143px; 
+	height: 330px; 
+	width: 330px; 
 	position: relative; 
 	top: 17px; 
 	text-align: center; 
 	align-items: center;
 	left: 50%;
-	margin-left: -71.5px;
+	margin-left: -165px;
 }
 .logo img {
 	width: 100%;
@@ -36,6 +36,7 @@ h1 {
 	top: 17px;
 	left: 50%;
 	margin-left: -400px;
+	margin-top: 60px;
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -292,11 +293,17 @@ a, #copy, #copy2 {
 	transform: scale(100%);
 	top: 0%;
 }
+.logo {
+	height: 280px; 
+	width: 280px; 
+	margin-left: -140px;
+}
 	h1 {
 		width: 320px;
 		height: 114px;
 		left: 50%;
 		margin-left: -160px;
+		margin-top: 20px;
 	}
 
 	h2 {
