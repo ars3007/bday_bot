@@ -7,6 +7,7 @@ html, body {
 .dimension {
 	position: relative;
 	transform: scale(0.8);
+	top: -30%;
 }
 .header {
 	width: 100%;
@@ -18,7 +19,7 @@ html, body {
 	height: 141px; 
 	width: 143px; 
 	position: relative; 
-	top: 37px; 
+	top: 17px; 
 	text-align: center; 
 	align-items: center;
 	left: 50%;
@@ -43,7 +44,7 @@ h1 {
 
 	text-align: center;
 
-	color: #0F86D7;
+	color: #4D4D4D;
 }
 
 h2 {
@@ -61,7 +62,7 @@ h2 {
 	line-height: 28px;
 	text-align: center;
 
-	color: #A1A1A1;
+	color: #0F86D7;
 }
 .button {
 	position: relative;
@@ -289,6 +290,7 @@ a, #copy, #copy2 {
 @media screen and (max-width: 1023px){
 .dimension {
 	transform: scale(100%);
+	top: 0%;
 }
 	h1 {
 		width: 320px;
