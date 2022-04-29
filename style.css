@@ -138,8 +138,8 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
-	line-height: 47px;
+	font-size: 26px;
+	line-height: 30px;
 	text-align: center;
 
 	color: #0F86D7;
@@ -198,8 +198,8 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 32px;
-	line-height: 38px;
+	font-size: 26px;
+	line-height: 30px;
 	color: #4D4D4D;
 	width: 886px;
 	left: 50%;
@@ -335,6 +335,10 @@ a, #copy, #copy2 {
 		width: 320px;
 		margin-left: -160px;
 	}
+
+	.card_cont {
+		top: 30px;
+	}
 	.card {
 		width: 100%;
 	}
@@ -349,6 +353,7 @@ a, #copy, #copy2 {
 		width: 320px;
 		left: 50%;
 		margin-left: -160px;
+		top: 280px;
 	}
 	.fox_block_2 {
 		display: none;
@@ -390,6 +395,9 @@ a, #copy, #copy2 {
 	.ya-share2 {
 		position: relative;
 		top: 20px;
+	}
+	.l_2 {
+		top: 120px;
 	}
 	.l_3 {
 		top: 120px;
