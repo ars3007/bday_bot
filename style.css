@@ -288,6 +288,17 @@ a, #copy, #copy2 {
 	display: inline-block;
 	visibility: visible;
 }
+.foot {
+	position: relative;
+	background-color: silver;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	top: -300px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
 @media screen and (max-width: 1023px){
 .dimension {
 	transform: scale(100%);
@@ -443,5 +454,8 @@ a, #copy, #copy2 {
 		position: relative;
 		width: 320px;
 		margin-bottom: 50px;
+	}
+	.foot {
+		top: 350px;
 	}
 }
