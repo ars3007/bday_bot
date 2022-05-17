@@ -290,9 +290,9 @@ a, #copy, #copy2 {
 }
 .foot {
 	position: relative;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 600;
-	top: -300px;
+	top: 350px;
 	height: 100px;
 	text-align: center;
 	line-height: 100px;
