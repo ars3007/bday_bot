@@ -290,14 +290,13 @@ a, #copy, #copy2 {
 }
 .foot {
 	position: relative;
-	background-color: silver;
-	color: white;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
 	top: -300px;
 	height: 100px;
 	text-align: center;
 	line-height: 100px;
+	color: #4D4D4D;
 }
 @media screen and (max-width: 1023px){
 .dimension {
@@ -457,5 +456,6 @@ a, #copy, #copy2 {
 	}
 	.foot {
 		top: 350px;
+		font-size: 26px;
 	}
 }
